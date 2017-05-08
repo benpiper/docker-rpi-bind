@@ -14,7 +14,7 @@ COMMAND="/usr/sbin/named -c /etc/bind/named.conf ${COMMAND_OPTIONS:=${COMMAND_OP
 chown root:root /etc/bind/
 chown root:root /etc/bind/*
 chown root:root /var/log/named/
-chown root:root /var/log/named/*
+
 #
 # Start named.
 #
